@@ -1,0 +1,94 @@
+{
+  "name": "nelix/glamorous-website",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Material",
+    "componentSet": {
+      "nav": "nav/DarkAbsoluteNav",
+      "header": "header/GradientHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Roboto, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "letterSpacing": "-0.01em"
+    },
+    "colors": {
+      "text": "#212121",
+      "background": "#fff",
+      "primary": "#2196f3",
+      "secondary": "#1565c0",
+      "highlight": "#ff4081",
+      "border": "#e0e0e0",
+      "muted": "#f5f5f5"
+    },
+    "layout": {
+      "centered": true,
+      "bannerHeight": "80vh",
+      "maxWidth": 896
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://glamorous.rocks",
+          "text": "Home"
+        },
+        {
+          "href": "https://github.com/nelix/glamorous-website",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/glamorous-website",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "glamorous-website",
+      "subhead": "This is still a work in progress",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "glamorous-website: This is still a work in progress",
+          "url": "https://glamorous.rocks"
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "nelix",
+          "repo": "glamorous-website"
+        }
+      ],
+      "text": "v1.0.0"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<p></p><h1>\n  <img src=\"https://github.com/paypal/glamorous/raw/master/other/logo/full.png\">\n  <br>\n  glamorous-website &#x1F484;\n  <br>\n</h1><p></p>\n<p>\n  This is the website for\n  <a href=\"https://github.com/paypal/glamorous\">glamorous</a>\n  and is built with\n  <a href=\"https://github.com/zeit/next.js\">next</a>\n  and\n  <a href=\"https://github.com/paypal/glamorous\">glamorous</a>\n  of course.\n</p>\n\n<p><a href=\"https://travis-ci.org/kentcdodds/glamorous-website\"><img src=\"https://img.shields.io/travis/kentcdodds/glamorous-website.svg?style=flat-square\"></a>\n<a href=\"https://codecov.io/github/kentcdodds/glamorous-website\"><img src=\"https://img.shields.io/codecov/c/github/kentcdodds/glamorous-website.svg?style=flat-square\"></a>\n<a href=\"#contributors\"><img src=\"https://img.shields.io/badge/all_contributors-45-orange.svg?style=flat-square\"></a>\n<a href=\"http://makeapullrequest.com\"><img src=\"https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square\"></a>\n<a href=\"https://github.com/kentcdodds/glamorous-website/blob/master/CODE_OF_CONDUCT.MD\"><img src=\"https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square\"></a>\n<a href=\"https://github.com/kentcdodds/glamorous-website/watchers\"><img src=\"https://img.shields.io/github/watchers/kentcdodds/glamorous-website.svg?style=social\"></a>\n<a href=\"https://github.com/kentcdodds/glamorous-website/stargazers\"><img src=\"https://img.shields.io/github/stars/kentcdodds/glamorous-website.svg?style=social\"></a>\n<a href=\"https://twitter.com/intent/tweet?text=Check%20out%20glamorous-website!%20https://github.com/kentcdodds/glamorous-website%20%F0%9F%91%8D\"><img src=\"https://img.shields.io/twitter/url/https/github.com/kentcdodds/glamorous-website.svg?style=social\"></a></p>\n<h2>Contributing</h2>\n<p>See <code>CONTRIBUTING.md</code>.</p>\n<h2>Contributors</h2>\n<p>Thanks goes to these people (<a href=\"https://github.com/kentcdodds/all-contributors#emoji-key\">emoji key</a>):</p>\n\n<table>\n<thead>\n<tr>\n<th><a href=\"https://kentcdodds.com\"><img src=\"https://avatars.githubusercontent.com/u/1500684?v=3\"><br><sub>Kent C. Dodds</sub></a><br><a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=kentcdodds\">&#x1F4BB;</a> <a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=kentcdodds\">&#x1F4D6;</a> <a href=\"#infra-kentcdodds\">&#x1F687;</a> <a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=kentcdodds\">&#x26A0;&#xFE0F;</a> <a href=\"#review-kentcdodds\">&#x1F440;</a></th>\n<th><a href=\"https://paul.molluzzo.com\"><img src=\"https://avatars0.githubusercontent.com/u/737065?v=3\"><br><sub>Paul Molluzzo</sub></a><br><a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=paulmolluzzo\">&#x1F4BB;</a> <a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=paulmolluzzo\">&#x1F4D6;</a> <a href=\"#review-paulmolluzzo\">&#x1F440;</a> <a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=paulmolluzzo\">&#x26A0;&#xFE0F;</a></th>\n<th><a href=\"http://liadbiz.github.io\"><img src=\"https://avatars0.githubusercontent.com/u/11924130?v=3\"><br><sub>zhu haihao</sub></a><br><a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=liadbiz\">&#x1F4BB;</a> <a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=liadbiz\">&#x1F4D6;</a> <a href=\"#translation-liadbiz\">&#x1F30D;</a></th>\n<th><a href=\"http://sbydesign.fr\"><img src=\"https://avatars0.githubusercontent.com/u/3509412?v=3\"><br><sub>Montlouis-Calixte St&#xE9;phane</sub></a><br><a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=bulby97\">&#x1F4BB;</a> <a href=\"#review-bulby97\">&#x1F440;</a></th>\n<th><a href=\"http://parvezk.github.io/\"><img src=\"https://avatars2.githubusercontent.com/u/3619527?v=3\"><br><sub>Parvez Kose</sub></a><br><a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=parvezk\">&#x1F4D6;</a></th>\n<th><a href=\"http://william.ng/\"><img src=\"https://avatars3.githubusercontent.com/u/23551907?v=3\"><br><sub>William I. Olojede</sub></a><br><a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=williamolojede\">&#x1F4D6;</a></th>\n<th><a href=\"http://www.michaelaltamirano.com\"><img src=\"https://avatars2.githubusercontent.com/u/13544620?v=3\"><br><sub>Michael Altamirano</sub></a><br><a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=mjaltamirano\">&#x1F4BB;</a> <a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=mjaltamirano\">&#x1F4D6;</a></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><a href=\"http://whoisandy.me\"><img src=\"https://avatars1.githubusercontent.com/u/297132?v=3\"><br><sub>Bhargav Anand</sub></a><br><a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=whoisandy\">&#x1F4BB;</a> <a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=whoisandy\">&#x1F4D6;</a></td>\n<td><a href=\"https://github.com/TreTuna\"><img src=\"https://avatars1.githubusercontent.com/u/16496746?v=3\"><br><sub>George &quot;Tre&quot; Ammatuna</sub></a><br><a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=TreTuna\">&#x1F4D6;</a></td>\n<td><a href=\"http://irth.pl\"><img src=\"https://avatars0.githubusercontent.com/u/1735193?v=3\"><br><sub>Wojciech Kwolek</sub></a><br><a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=irth\">&#x1F4BB;</a></td>\n<td><a href=\"https://twitter.com/aranajhonny\"><img src=\"https://avatars2.githubusercontent.com/u/9091881?v=3\"><br><sub>Arana Jhonny</sub></a><br><a href=\"#translation-aranajhonny\">&#x1F30D;</a></td>\n<td><a href=\"http://linkedin.com/in/anthony2025\"><img src=\"https://avatars1.githubusercontent.com/u/6819701?v=3\"><br><sub>Anthony Ascencio</sub></a><br><a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=anthony2025\">&#x1F4D6;</a> <a href=\"#translation-anthony2025\">&#x1F30D;</a></td>\n<td><a href=\"https://github.com/tdeschryver\"><img src=\"https://avatars2.githubusercontent.com/u/28659384?v=3\"><br><sub>tdeschryver</sub></a><br><a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=tdeschryver\">&#x1F4BB;</a> <a href=\"#review-tdeschryver\">&#x1F440;</a></td>\n<td><a href=\"http://www.wickett.ca\"><img src=\"https://avatars2.githubusercontent.com/u/845983?v=3\"><br><sub>Mike Wickett</sub></a><br><a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=mwickett\">&#x1F4BB;</a> <a href=\"#design-mwickett\">&#x1F3A8;</a></td>\n</tr>\n<tr>\n<td><a href=\"https://github.com/danseethaler\"><img src=\"https://avatars2.githubusercontent.com/u/11202705?v=3\"><br><sub>Dan Seethaler</sub></a><br><a href=\"#example-danseethaler\">&#x1F4A1;</a></td>\n<td><a href=\"http://yuanchuan.name\"><img src=\"https://avatars2.githubusercontent.com/u/250426?v=3\"><br><sub>Yuan Chuan</sub></a><br><a href=\"#review-yuanchuan\">&#x1F440;</a></td>\n<td><a href=\"https://twitter.com/_philpl\"><img src=\"https://avatars3.githubusercontent.com/u/2041385?v=3\"><br><sub>Phil Pl&#xFC;ckthun</sub></a><br><a href=\"#review-philpl\">&#x1F440;</a></td>\n<td><a href=\"https://github.com/HsinChiehYeh\"><img src=\"https://avatars3.githubusercontent.com/u/7849259?v=3\"><br><sub>Hsin-chieh Yeh</sub></a><br><a href=\"#review-HsinChiehYeh\">&#x1F440;</a></td>\n<td><a href=\"https://github.com/bernard-lin\"><img src=\"https://avatars3.githubusercontent.com/u/16327281?v=3\"><br><sub>Bernard Lin</sub></a><br><a href=\"#review-bernard-lin\">&#x1F440;</a></td>\n<td><a href=\"http://macx.im\"><img src=\"https://avatars1.githubusercontent.com/u/1909957?v=3\"><br><sub>Maxime Laforet</sub></a><br><a href=\"#review-Macxim\">&#x1F440;</a></td>\n<td><a href=\"https://github.com/etiennetalbot\"><img src=\"https://avatars0.githubusercontent.com/u/2954511?v=3\"><br><sub>Etienne Talbot</sub></a><br><a href=\"#review-etiennetalbot\">&#x1F440;</a></td>\n</tr>\n<tr>\n<td><a href=\"http://www.karlgroves.com\"><img src=\"https://avatars1.githubusercontent.com/u/873419?v=3\"><br><sub>Karl Groves</sub></a><br><a href=\"#review-karlgroves\">&#x1F440;</a></td>\n<td><a href=\"https://www.funcion13.com\"><img src=\"https://avatars1.githubusercontent.com/u/946645?v=3\"><br><sub>Antonio Laguna</sub></a><br><a href=\"#review-Belelros\">&#x1F440;</a></td>\n<td><a href=\"https://github.com/lydell\"><img src=\"https://avatars0.githubusercontent.com/u/2142817?v=3\"><br><sub>Simon Lydell</sub></a><br><a href=\"#review-lydell\">&#x1F440;</a></td>\n<td><a href=\"https://github.com/Anujan\"><img src=\"https://avatars1.githubusercontent.com/u/2387037?v=3\"><br><sub>Anujan Panchadcharam</sub></a><br><a href=\"#review-Anujan\">&#x1F440;</a></td>\n<td><a href=\"https://github.com/CarlRosell\"><img src=\"https://avatars3.githubusercontent.com/u/2036823?v=3\"><br><sub>Carl Rosell</sub></a><br><a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=CarlRosell\">&#x1F4BB;</a></td>\n<td><a href=\"https://github.com/aarondolson\"><img src=\"https://avatars1.githubusercontent.com/u/4111526?v=3\"><br><sub>Aaron Olson</sub></a><br><a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=aarondolson\">&#x1F4D6;</a></td>\n<td><a href=\"https://gillchristian.xyz\"><img src=\"https://avatars1.githubusercontent.com/u/8309423?v=3\"><br><sub>Christian Gill</sub></a><br><a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=gillchristian\">&#x1F4BB;</a></td>\n</tr>\n<tr>\n<td><a href=\"http://jonmajorc.com\"><img src=\"https://avatars2.githubusercontent.com/u/7799266?v=3\"><br><sub>Jon Major</sub></a><br><a href=\"#design-jonmajorc\">&#x1F3A8;</a></td>\n<td><a href=\"https://github.com/hozefaj\"><img src=\"https://avatars2.githubusercontent.com/u/2084833?v=3\"><br><sub>Hozefa</sub></a><br><a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=hozefaj\">&#x1F4BB;</a> <a href=\"#review-hozefaj\">&#x1F440;</a></td>\n<td><a href=\"http://audora.me\"><img src=\"https://avatars2.githubusercontent.com/u/18056710?v=3\"><br><sub>Audora Chalker</sub></a><br><a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=audoralc\">&#x1F4D6;</a></td>\n<td><a href=\"http://codepen.io/hossman\"><img src=\"https://avatars0.githubusercontent.com/u/2993997?v=3\"><br><sub>Josh Robertson</sub></a><br><a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=Hossman333\">&#x1F4D6;</a></td>\n<td><a href=\"http://alessandro.arnodo.net\"><img src=\"https://avatars0.githubusercontent.com/u/82070?v=3\"><br><sub>Alessandro Arnodo</sub></a><br><a href=\"#review-vesparny\">&#x1F440;</a></td>\n<td><a href=\"https://github.com/avivr\"><img src=\"https://avatars0.githubusercontent.com/u/7034094?v=3\"><br><sub>Aviv Rosental</sub></a><br><a href=\"#review-avivr\">&#x1F440;</a></td>\n<td><a href=\"https://atticuswhite.com\"><img src=\"https://avatars3.githubusercontent.com/u/656630?v=3\"><br><sub>Atticus White</sub></a><br><a href=\"#review-ajwhite\">&#x1F440;</a></td>\n</tr>\n<tr>\n<td><a href=\"https://nitintulswani.surge.sh/\"><img src=\"https://avatars2.githubusercontent.com/u/16336071?v=3\"><br><sub>Nitin Tulswani</sub></a><br><a href=\"#example-nitin42\">&#x1F4A1;</a></td>\n<td><a href=\"https://github.com/motleydev\"><img src=\"https://avatars1.githubusercontent.com/u/1203804?v=3\"><br><sub>Jesse</sub></a><br><a href=\"#design-motleydev\">&#x1F3A8;</a> <a href=\"#translation-motleydev\">&#x1F30D;</a> <a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=motleydev\">&#x1F4BB;</a> <a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=motleydev\">&#x1F4D6;</a> <a href=\"#review-motleydev\">&#x1F440;</a></td>\n<td><a href=\"https://leafpub.org\"><img src=\"https://avatars0.githubusercontent.com/u/6382544?v=3\"><br><sub>Marc Apfelbaum</sub></a><br><a href=\"#translation-karsasmus\">&#x1F30D;</a> <a href=\"#review-karsasmus\">&#x1F440;</a></td>\n<td><a href=\"http://kairichardkoenig.de\"><img src=\"https://avatars0.githubusercontent.com/u/35398?v=3\"><br><sub>Kai Richard K&#xF6;nig</sub></a><br><a href=\"#review-kairichard\">&#x1F440;</a></td>\n<td><a href=\"https://github.com/MoeSattler\"><img src=\"https://avatars3.githubusercontent.com/u/8615251?v=3\"><br><sub>Moe Sattler</sub></a><br><a href=\"#review-MoeSattler\">&#x1F440;</a> <a href=\"#translation-MoeSattler\">&#x1F30D;</a></td>\n<td><a href=\"https://github.com/RIanDeLaCruz\"><img src=\"https://avatars5.githubusercontent.com/u/7766185?v=4\"><br><sub>Ian De La Cruz</sub></a><br><a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=RIanDeLaCruz\">&#x1F4BB;</a></td>\n<td><a href=\"http://jumbosushi.github.io\"><img src=\"https://avatars1.githubusercontent.com/u/9669739?v=4\"><br><sub>Atsushi Yamamoto</sub></a><br></td>\n</tr>\n<tr>\n<td><a href=\"http://www.bambuu.dk\"><img src=\"https://avatars1.githubusercontent.com/u/5678122?v=4\"><br><sub>Jeppe Reinhold</sub></a><br><a href=\"https://github.com/kentcdodds/glamorous-website/commits?author=JReinhold\">&#x1F4D6;</a></td>\n<td><a href=\"http://igorkonovalov.github.io\"><img src=\"https://avatars1.githubusercontent.com/u/8154172?v=4\"><br><sub>Igor Konovalov</sub></a><br><a href=\"#translation-IgorKonovalov\">&#x1F30D;</a> <a href=\"#review-IgorKonovalov\">&#x1F440;</a></td>\n<td><a href=\"http://gitpash.github.io\"><img src=\"https://avatars0.githubusercontent.com/u/22022930?v=4\"><br><sub>Luzanov Pavel</sub></a><br><a href=\"#review-gitpash\">&#x1F440;</a> <a href=\"#translation-gitpash\">&#x1F30D;</a></td>\n</tr>\n</tbody>\n</table>\n\n<p>This project follows the <a href=\"https://github.com/kentcdodds/all-contributors\">all-contributors</a> specification.\nContributions of any kind welcome!</p>\n<h2>LICENSE</h2>\n<p>MIT</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/nelix/glamorous-website",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/nelix",
+          "text": "nelix"
+        }
+      ]
+    }
+  ]
+}
